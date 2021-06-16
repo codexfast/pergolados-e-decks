@@ -1,5 +1,10 @@
+:root {
+    --bg-primary: #ff7d41;
+    /* coming soon */
+}
+
 .custom-btn-primary {
-    background-color: #ff7d41;
+    background-color: var(--bg-primary);
     border-color: #ff7d41;
     color: #fff;
 }
@@ -18,8 +23,8 @@
 }
 
 .custom-btn-outline-primary {
-    color: #fe7d41;
-    border-color: #fe7d41;
+    color: var(--bg-primary);
+    border-color: var(--bg-primary);
 }
 
 .custom-btn-outline-primary:hover {
@@ -29,8 +34,8 @@
 }
 
 .custom-btn-outline-primary:focus {
-    color: #fe7d41;
-    border-color: #fe7d41;
+    color: var(--bg-primary);
+    border-color: var(--bg-primary);
     box-shadow: 0 0 0 0.25rem #ff8f5b8f;
 }
 
@@ -47,7 +52,7 @@
     width: 100%;
     height: 100%;
     background-color: #000;
-    opacity: .5;
+    opacity: .7;
     position: absolute;
 }
 
